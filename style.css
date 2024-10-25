@@ -1,0 +1,63 @@
+*{
+    margin: 2%;
+    padding: 10px;
+    
+    background-image:  url('https://wallpapers.com/images/featured/math-zarpq292tmb3whun.jpg');
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Prevents page from scrolling */
+}
+
+
+h1 {
+    font-weight: bold;
+    font-size: 60px;
+    color: whitesmoke;
+}
+.run{
+    height: 0px;
+    width: 200x;
+    padding: 10px;
+    margin: 0%;
+    
+}
+input{
+    font-size: 40px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 15px;
+    color: black;
+    border-radius: 20px;
+    background: transparent;
+    border-color: whitesmoke;
+    border-width: 5px;
+}
+.button{
+    width: 85px;
+    height: 70px;
+    position: relative;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: bold;
+    text-align: center;
+    cursor: pointer;
+    background: whitesmoke;
+    border-radius:15px;
+}
+
+.button:hover{
+    color: burlywood;
+}
+.display{
+    color: wheat;
+}
